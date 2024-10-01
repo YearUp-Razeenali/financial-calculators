@@ -25,7 +25,7 @@ public class cd_calculator {
         return number;
     }
 
-    /*
+    /**
     * formula for CD:
     * A = P (1 + r/n) ^(nt)
     * P is the principal (the starting amount)

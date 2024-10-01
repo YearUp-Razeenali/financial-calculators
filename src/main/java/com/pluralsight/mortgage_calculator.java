@@ -22,6 +22,14 @@ public class mortgage_calculator {
         return number;
     }
 
+    /**
+     * formula for mortgage calculator
+     * M = P * (r (1 + r)^n / (1 + r)^n - 1)
+     * M	Total monthly mortgage payment
+     * P	Principal loan amount
+     * r    Monthly interest rate
+     * n    Number of payments over the loan’s lifetime
+     */
     public static double monthly_mortgage(float principle, float interest, float years){
         double interest_as_deci = (interest/100)/12;
         double years_into_months = 12 * 15;
